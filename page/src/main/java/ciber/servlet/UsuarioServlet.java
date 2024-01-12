@@ -1,8 +1,8 @@
-package cdata.servlet;
+package ciber.servlet;
 
-import cdata.dto.Usuario;
-import cdata.dao.UsuarioDAO;
-import cdata.dao.impl.UsuarioDAOImpl;
+import ciber.dto.Usuario;
+import ciber.dao.UsuarioDAO;
+import ciber.dao.impl.UsuarioDAOImpl;
 import java.io.IOException;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

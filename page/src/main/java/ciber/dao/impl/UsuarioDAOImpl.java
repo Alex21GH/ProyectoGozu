@@ -1,8 +1,8 @@
-package cdata.dao.impl;
+package ciber.dao.impl;
 
-import cdata.dao.SqlConecta;
-import cdata.dto.Usuario;
-import cdata.dao.UsuarioDAO;
+import ciber.dao.SqlConecta;
+import ciber.dto.Usuario;
+import ciber.dao.UsuarioDAO;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

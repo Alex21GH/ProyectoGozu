@@ -1,4 +1,4 @@
-package cdata.dto;
+package ciber.dto;
 
 public class Usuario {
 

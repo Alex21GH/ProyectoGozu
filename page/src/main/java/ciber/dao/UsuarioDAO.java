@@ -1,6 +1,6 @@
-package cdata.dao;
+package ciber.dao;
 
-import cdata.dto.Usuario;
+import ciber.dto.Usuario;
 
 public interface UsuarioDAO {
     
