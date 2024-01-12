@@ -12,11 +12,6 @@ public class UsuarioDAOImpl implements UsuarioDAO {
     @Override
     public Usuario autentica(String usuario, String password) {
         
-//        StringBuilder s = new StringBuilder("SELECT idusuario, usuario, password ");
-//        s.append("FROM usuario ");
-//        s.append("WHERE (usuario = ?) ");
-//        s.append("AND (AES_DECRYPT(password, 'cdata') = ?)");
-        
         StringBuilder query = new StringBuilder("SELECT idusuario, usuario, password ");
         query.append("FROM USUARIOS ");
         query.append("WHERE (usuario = ?) ");
@@ -28,7 +23,7 @@ public class UsuarioDAOImpl implements UsuarioDAO {
             
             ps.setString(1, usuario);
             ps.setString(2, password);
-
+            
             ResultSet rs = ps.executeQuery();
 
             if (rs.next()) {
